@@ -98,7 +98,6 @@ footer p {
   background-color: #F6F5F4;
 }
 
-/* Add some padding inside the card container */
 .cardtag {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -233,6 +232,10 @@ button:hover {
 
 .button1:hover {
   background-color: #f7d8da;
+}
+
+.button1, i {
+  padding-right: 0;
 }
 
 .hamburger {
