@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,700,900");
+@import url("https://fonts.googleapis.com/css?family=Work Sans:300,400,500,700,900");
+
+html {
+	font-family: sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  
+body {
+	font-family: "Work Sans", sans-serif;
+  letter-spacing: 0.5px;
+	line-height: 30px;
+	text-align: left;
+	background-color: #fff;
+	font-weight: 400;
+	color: #4a4e53;
+  }
+
+.h1, .h2, .h3, .h4, .h5, .h6, 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway";
+  font-weight: 700;
+  color: #212529;
+  margin-left: 5vw;
+  margin-top: 5vw;
+}
+
+.h1, h1 {
+  font-size: 2.5vw;
+  margin-top: 5vw;
+  line-height: 30px;
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+
+@media screen and (max-width: 600px) {
+  .h1, h1 {
+    font-size: 1.5rem;
+  }
+} 
+
+@media screen and (min-width: 600px) and (max-width: 1400px) {
+  .h1, h1 {
+    font-size: 1.5rem;
+  }
+} 
+
+.h2, h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 30px;
+  padding-top: 2rem;
+  margin-bottom: 10px;
+}
+
+.h5, h5 {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+  color:rgb(71, 64, 64);
+}
+
+p, li {
+  margin: 0;
+  letter-spacing: 1px;
+  font-size: 1.1vw;
+  }
+
+footer p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.6rem;
+}
+
+.logo-image {
+  margin: 3rem 0 0 5vw;
+}
+
+.container {
+  padding: 0 1vw 0 1vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  transition: 0.3s;
+  margin: 3rem 5vw 2vw 5vw;
+  background-color: #F6F5F4;
+}
+
+/* Add some padding inside the card container */
+.cardtag {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.textbox {
+  display: block;
+}
+
+.i, i {
+  margin-right: 1vw;
+}
+
+img {
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  align-self: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px 0 0 0;
+}
+
+li {
+  display: flex;
+  align-items: right;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 1.5px;
+  margin: 0 0 10px 5vw;
+  color:rgb(71, 64, 64);
+}
+
+ /* Notification bar: https://codepen.io/mobeenabdullah/pen/GMmvpM */
+ .notification-top-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+  background: #ED1B25;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "Raleway";
+  font-weight: 500;
+}
+
+.notification-top-bar p {
+  padding: 0;
+  margin: 0;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+.topnav {
+  overflow: hidden;
+  padding: 12vw 5vw 0 0;
+}
+
+.topnav a {
+  display: flex;
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+footer {
+  padding: 6rem 0 1rem 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  height: 6rem;
+  width: 100%;
+  background-color: #c0151d;
+  color: #FFFFFF;
+  font-family: "Raleway";
+  font-weight: 500;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ED1B25;
+  border: none;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 2px;
+  padding: 15px 32px;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  width: 90%;
+  border-radius: 4px;
+  transition-duration: 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button:hover {
+  background-color: #c0151d;
+}
+
+.button1 {
+  background-color: #F6F5F4;
+  border: 2px solid #ED1B25;
+  color: #ED1B25;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 2px;
+  padding: 12px 32px;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  width: 90%;
+  border-radius: 4px;
+  transition-duration: 0.2s;
+}
+
+.button1:hover {
+  background-color: #f7d8da;
+}
+
+.hamburger {
+  position: absolute;
+  top: 12vw;
+  left: 85vw;
+  display:none;
+}
+
+@media screen and (max-width: 800px) {
+  .cardtag {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .topnav {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
+/* Underline hover animation: https://tobiasahlin.com/blog/css-trick-animating-link-underlines/ */
+.a, a {
+  position: relative;
+  text-decoration: none;
+  color: #ED1B25;
+  padding-bottom: 10px;
+}
+
+a:hover {
+  color: #ED1B25;
+}
+
+a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color:#ED1B25;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+a:hover::before {
+  transform: scaleX(1);
+}
