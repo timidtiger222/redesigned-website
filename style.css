@@ -263,8 +263,7 @@ button:hover {
   }
 	
    img {
-    max-width: 100%;
-    overflow: hidden;
+    height: auto;
   }
 }
 
