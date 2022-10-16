@@ -261,6 +261,11 @@ button:hover {
    li {
     font-size: 0.9rem;
   }
+	
+   img {
+    max-width: 100%;
+    overflow: hidden;
+  }
 }
 
 /* Underline hover animation: https://tobiasahlin.com/blog/css-trick-animating-link-underlines/ */
